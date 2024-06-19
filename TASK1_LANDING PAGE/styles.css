@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #1c5db9;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+#hero button {
+    background: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#services {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#services .service {
+    background: #f4f4f4;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+#testimonials {
+    background: #f9f9f9;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#testimonials blockquote {
+    border-left: 4px solid #000000;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+#testimonials cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: normal;
+    color: #fffdfd;
+}
+
+#contact {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#contact form input, 
+#contact form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact form button {
+    background: #1c5db9;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background: #ffffff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
